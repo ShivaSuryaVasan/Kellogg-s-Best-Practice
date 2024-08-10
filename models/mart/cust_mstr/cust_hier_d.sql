@@ -16,7 +16,7 @@
 
 {{
     config(
-        materialized='ephemeral'
+        materialized='table'
     )
 }}
 
@@ -30,15 +30,6 @@ int_cust_hier_unrvl_i_cur_d as (
 
 int_cust_hier_unrvl_i_fut_d as (
     select * from {{ ref('int_cust_hier_unrvl_i_fut_d') }}
-),
-
-kunnr as (
-    select 
-        distinct kunnr 
-    from 
-        kna_ecc_cust_mstr_kna1 
-    where 
-        KTOKD='0001'
 ),
 
 base as (
@@ -201,7 +192,7 @@ final as (
     from 
         base 
     where
-        sold_to_nbr = '' or sold_to_nbr in kunnr;
+        sold_to_nbr = '' or sold_to_nbr in (select distinct kunnr from kna_ecc_cust_mstr_kna1 where KTOKD='0001')
 )
 
 select * from final
