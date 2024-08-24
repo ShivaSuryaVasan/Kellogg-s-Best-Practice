@@ -1,0 +1,73 @@
+version: 2
+
+sources:
+  - name: stg_sales_user_store_loc
+    description: ""
+    schema: prep
+    tables:
+      - name: "\"sales_user_store_loc_store-location\""
+        description: ""
+        columns:
+          - name: region
+            data_type: varchar
+            description: ""
+          - name: area
+            data_type: varchar
+            description: ""
+          - name: territory
+            data_type: varchar
+            description: ""
+          - name: external_id
+            data_type: varchar
+            description: ""
+          - name: name
+            data_type: varchar
+            description: ""
+          - name: address
+            data_type: varchar
+            description: ""
+          - name: city
+            data_type: varchar
+            description: ""
+          - name: state
+            data_type: varchar
+            description: ""
+          - name: territory_count
+            data_type: varchar
+            description: ""
+          - name: store_latitude
+            data_type: varchar
+            description: ""
+          - name: store_longitude
+            data_type: varchar
+            description: ""
+          - name: area_lat_val
+            data_type: varchar
+            description: ""
+          - name: area_lon_val
+            data_type: varchar
+            description: ""
+          - name: terr_lat_val
+            data_type: varchar
+            description: ""
+          - name: terr_lon_val
+            data_type: varchar
+            description: ""
+          - name: load_date
+            data_type: varchar
+            description: ""
+          - name: kortex_file_path_nm
+            data_type: varchar
+            description: ""
+          - name: kortex_file_ts
+            data_type: varchar
+            description: ""
+          - name: kortex_upld_ts
+            data_type: timestamp_ntz
+            description: ""
+          - name: kortex_dprct_ts
+            data_type: timestamp_ntz
+            description: ""
+          - name: src_nm
+            data_type: varchar
+            description: ""

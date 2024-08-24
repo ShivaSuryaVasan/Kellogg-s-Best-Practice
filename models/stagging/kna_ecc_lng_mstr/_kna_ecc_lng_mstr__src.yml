@@ -1,0 +1,43 @@
+version: 2
+
+sources:
+  - name: stg_kna_ecc_lng_mstr
+    description: ""
+    schema: prep
+    tables:
+      - name: kna_ecc_lng_mstr_t002
+        description: ""
+        columns:
+          - name: source_system
+            data_type: varchar
+            description: ""
+          - name: spras
+            data_type: varchar
+            description: ""
+          - name: intrnl_lng_cd
+            data_type: varchar
+            description: ""
+          - name: laspez
+            data_type: varchar
+            description: ""
+          - name: lahq
+            data_type: varchar
+            description: ""
+          - name: lng_cd
+            data_type: varchar
+            description: ""
+          - name: kortex_file_path_nm
+            data_type: varchar
+            description: ""
+          - name: kortex_file_ts
+            data_type: varchar
+            description: ""
+          - name: kortex_upld_ts
+            data_type: timestamp_ntz
+            description: ""
+          - name: kortex_dprct_ts
+            data_type: timestamp_ntz
+            description: ""
+          - name: src_nm
+            data_type: varchar
+            description: ""

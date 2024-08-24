@@ -1,0 +1,58 @@
+version: 2
+
+sources:
+  - name: stg_kna_ecc_ctry_mstr
+    description: ""
+    schema: prep
+    tables:
+      - name: kna_ecc_ctry_mstr_t005t
+        description: ""
+        columns:
+          - name: source_system
+            data_type: varchar
+            description: ""
+          - name: mandt
+            data_type: varchar
+            description: ""
+          - name: spras
+            data_type: varchar
+            description: ""
+          - name: land1
+            data_type: varchar
+            description: ""
+          - name: landx
+            data_type: varchar
+            description: ""
+          - name: ctry_nm
+            data_type: varchar
+            description: ""
+          - name: ctry_desc
+            data_type: varchar
+            description: ""
+          - name: natio
+            data_type: varchar
+            description: ""
+          - name: landx50
+            data_type: varchar
+            description: ""
+          - name: natio50
+            data_type: varchar
+            description: ""
+          - name: prq_spregt
+            data_type: varchar
+            description: ""
+          - name: kortex_file_path_nm
+            data_type: varchar
+            description: ""
+          - name: kortex_file_ts
+            data_type: varchar
+            description: ""
+          - name: kortex_upld_ts
+            data_type: timestamp_ntz
+            description: ""
+          - name: kortex_dprct_ts
+            data_type: timestamp_ntz
+            description: ""
+          - name: src_nm
+            data_type: varchar
+            description: ""

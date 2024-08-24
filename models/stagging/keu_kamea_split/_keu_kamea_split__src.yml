@@ -1,0 +1,24 @@
+version: 2
+
+sources:
+  - name: stg_cust_spin
+    description: ""
+    schema: prep
+    tables:
+      - name: cust_spin
+        description: ""
+        columns:
+          - name: cust_nbr
+            description: ""
+          - name: spin_owner_nm
+            description: ""
+            
+      - name: ref_co_spin
+        description: ""
+        columns:
+          - name: co_cd
+            data_type: varchar
+            description: ""
+          - name: spin_owner_nm
+            data_type: varchar
+            description: ""

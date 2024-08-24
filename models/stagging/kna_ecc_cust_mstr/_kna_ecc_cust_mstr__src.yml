@@ -1,0 +1,1085 @@
+version: 2
+
+sources:
+  - name: stg_kna_ecc_cust_mstr
+    description: ""
+    schema: prep
+    tables:
+      - name: kna_ecc_cust_mstr_kna1
+        description: ""
+        columns:
+          - name: source_system
+            description: ""
+          - name: mandt
+            description: ""
+          - name: cust_nbr
+            description: ""
+          - name: land1
+            description: ""
+          - name: ctry_cd
+            description: ""
+          - name: cust_nm
+            description: ""
+          - name: cust2_nm
+            description: ""
+          - name: name1
+            description: ""
+          - name: name2
+            description: ""
+          - name: ort01
+            description: ""
+          - name: city_nm
+            description: ""
+          - name: pstlz
+            description: ""
+          - name: pstl_cd
+            description: ""
+          - name: regio
+            description: ""
+          - name: rgn_cd
+            description: ""
+          - name: sortl
+            description: ""
+          - name: stras
+            description: ""
+          - name: street_nm
+            description: ""
+          - name: telf1
+            description: ""
+          - name: telfx
+            description: ""
+          - name: xcpdk
+            description: ""
+          - name: adrnr
+            description: ""
+          - name: mcod1
+            description: ""
+          - name: mcod2
+            description: ""
+          - name: mcod3
+            description: ""
+          - name: anred
+            description: ""
+          - name: aufsd
+            description: ""
+          - name: order_blok_cd
+            description: ""
+          - name: bahne
+            description: ""
+          - name: bahns
+            description: ""
+          - name: bbbnr
+            description: ""
+          - name: bbsnr
+            description: ""
+          - name: begru
+            description: ""
+          - name: brsch
+            description: ""
+          - name: bubkz
+            description: ""
+          - name: datlt
+            description: ""
+          - name: erdat
+            description: ""
+          - name: cre_dt
+            description: ""
+          - name: ernam
+            description: ""
+          - name: exabl
+            description: ""
+          - name: faksd
+            description: ""
+          - name: fiskn
+            description: ""
+          - name: knazk
+            description: ""
+          - name: knrza
+            description: ""
+          - name: altn_payer_nbr
+            description: ""
+          - name: konzs
+            description: ""
+          - name: ktokd
+            description: ""
+          - name: acct_group_cd
+            description: ""
+          - name: kukla
+            description: ""
+          - name: lifnr
+            description: ""
+          - name: lifsd
+            description: ""
+          - name: locco
+            description: ""
+          - name: loevm
+            description: ""
+          - name: del_ind
+            description: ""
+          - name: name3
+            description: ""
+          - name: name4
+            description: ""
+          - name: niels
+            description: ""
+          - name: ort02
+            description: ""
+          - name: distrct_nm
+            description: ""
+          - name: pfach
+            description: ""
+          - name: pstl2
+            description: ""
+          - name: counc
+            description: ""
+          - name: cityc
+            description: ""
+          - name: rpmkr
+            description: ""
+          - name: sperr
+            description: ""
+          - name: spras
+            description: ""
+          - name: stcd1
+            description: ""
+          - name: stcd2
+            description: ""
+          - name: stkza
+            description: ""
+          - name: stkzu
+            description: ""
+          - name: telbx
+            description: ""
+          - name: store_nbr
+            description: ""
+          - name: telf2
+            description: ""
+          - name: teltx
+            description: ""
+          - name: telx1
+            description: ""
+          - name: lzone
+            description: ""
+          - name: xzemp
+            description: ""
+          - name: vbund
+            description: ""
+          - name: stceg
+            description: ""
+          - name: dear1
+            description: ""
+          - name: dear2
+            description: ""
+          - name: dear3
+            description: ""
+          - name: dear4
+            description: ""
+          - name: dear5
+            description: ""
+          - name: gform
+            description: ""
+          - name: bran1
+            description: ""
+          - name: bran2
+            description: ""
+          - name: bran3
+            description: ""
+          - name: bran4
+            description: ""
+          - name: bran5
+            description: ""
+          - name: ekont
+            description: ""
+          - name: umsat
+            description: ""
+          - name: umjah
+            description: ""
+          - name: uwaer
+            description: ""
+          - name: jmzah
+            description: ""
+          - name: jmjah
+            description: ""
+          - name: katr1
+            description: ""
+          - name: plan_to_cd
+            description: ""
+          - name: katr2
+            description: ""
+          - name: chain_ind
+            description: ""
+          - name: katr3
+            description: ""
+          - name: katr4
+            description: ""
+          - name: store_cd
+            description: ""
+          - name: katr5
+            description: ""
+          - name: cust_type_cd
+            description: ""
+          - name: katr6
+            description: ""
+          - name: katr7
+            description: ""
+          - name: katr8
+            description: ""
+          - name: katr9
+            description: ""
+          - name: katr10
+            description: ""
+          - name: stkzn
+            description: ""
+          - name: umsa1
+            description: ""
+          - name: txjcd
+            description: ""
+          - name: periv
+            description: ""
+          - name: abrvw
+            description: ""
+          - name: inspbydebi
+            description: ""
+          - name: inspatdebi
+            description: ""
+          - name: ktocd
+            description: ""
+          - name: pfort
+            description: ""
+          - name: werks
+            description: ""
+          - name: dtams
+            description: ""
+          - name: dtaws
+            description: ""
+          - name: duefl
+            description: ""
+          - name: hzuor
+            description: ""
+          - name: sperz
+            description: ""
+          - name: pymt_blok_cd
+            description: ""
+          - name: etikg
+            description: ""
+          - name: civve
+            description: ""
+          - name: milve
+            description: ""
+          - name: kdkg1
+            description: ""
+          - name: cust_pref_brkt_dry_cd
+            description: ""
+          - name: kdkg2
+            description: ""
+          - name: cust_pref_brkt_frz_cd
+            description: ""
+          - name: kdkg3
+            description: ""
+          - name: cust_fix_brkt_dry_cd
+            description: ""
+          - name: kdkg4
+            description: ""
+          - name: cust_fix_brkt_frz_cd
+            description: ""
+          - name: kdkg5
+            description: ""
+          - name: cust_ovrd_brkt_cd
+            description: ""
+          - name: xknza
+            description: ""
+          - name: altn_payer_acct_cd
+            description: ""
+          - name: fityp
+            description: ""
+          - name: stcdt
+            description: ""
+          - name: stcd3
+            description: ""
+          - name: stcd4
+            description: ""
+          - name: stcd5
+            description: ""
+          - name: xicms
+            description: ""
+          - name: xxipi
+            description: ""
+          - name: xsubt
+            description: ""
+          - name: cfopc
+            description: ""
+          - name: txlw1
+            description: ""
+          - name: txlw2
+            description: ""
+          - name: ccc01
+            description: ""
+          - name: ccc02
+            description: ""
+          - name: ccc03
+            description: ""
+          - name: ccc04
+            description: ""
+          - name: cassd
+            description: ""
+          - name: knurl
+            description: ""
+          - name: j_1kfrepre
+            description: ""
+          - name: j_1kftbus
+            description: ""
+          - name: j_1kftind
+            description: ""
+          - name: confs
+            description: ""
+          - name: updat
+            description: ""
+          - name: uptim
+            description: ""
+          - name: nodel
+            description: ""
+          - name: dear6
+            description: ""
+          - name: /vso/r_palhgt
+            description: ""
+          - name: /vso/r_pal_ul
+            description: ""
+          - name: /vso/r_pk_mat
+            description: ""
+          - name: /vso/r_matpal
+            description: ""
+          - name: /vso/r_i_no_lyr
+            description: ""
+          - name: /vso/r_one_mat
+            description: ""
+          - name: /vso/r_one_sort
+            description: ""
+          - name: /vso/r_uld_side
+            description: ""
+          - name: /vso/r_load_pref
+            description: ""
+          - name: /vso/r_dpoint
+            description: ""
+          - name: alc
+            description: ""
+          - name: pmt_office
+            description: ""
+          - name: fee_schedule
+            description: ""
+          - name: duns
+            description: ""
+          - name: duns_nbr
+            description: ""
+          - name: duns4
+            description: ""
+          - name: duns4_nbr
+            description: ""
+          - name: psofg
+            description: ""
+          - name: psois
+            description: ""
+          - name: pson1
+            description: ""
+          - name: pson2
+            description: ""
+          - name: pson3
+            description: ""
+          - name: psovn
+            description: ""
+          - name: psotl
+            description: ""
+          - name: psohs
+            description: ""
+          - name: psost
+            description: ""
+          - name: psoo1
+            description: ""
+          - name: psoo2
+            description: ""
+          - name: psoo3
+            description: ""
+          - name: psoo4
+            description: ""
+          - name: psoo5
+            description: ""
+          - name: kortex_file_path_nm
+            description: ""
+          - name: kortex_file_ts
+            description: ""
+          - name: kortex_upld_ts
+            description: ""
+          - name: kortex_dprct_ts
+            description: ""
+          - name: src_nm
+            description: ""
+
+      - name: kna_ecc_cust_mstr_knvh
+        description: ""
+        columns:
+          - name: source_system
+            description: ""
+          - name: mandt
+            description: ""
+          - name: hityp
+            description: ""
+          - name: kunnr
+            description: ""
+          - name: vkorg
+            description: ""
+          - name: vtweg
+            description: ""
+          - name: spart
+            description: ""
+          - name: datab
+            description: ""
+          - name: datbi
+            description: ""
+          - name: hkunnr
+            description: ""
+          - name: hvkorg
+            description: ""
+          - name: hvtweg
+            description: ""
+          - name: hspart
+            description: ""
+          - name: grpno
+            description: ""
+          - name: bokre
+            description: ""
+          - name: prfre
+            description: ""
+          - name: hzuor
+            description: ""
+          - name: kortex_file_path_nm
+            description: ""
+          - name: kortex_file_ts
+            description: ""
+          - name: kortex_upld_ts
+            description: ""
+          - name: kortex_dprct_ts
+            description: ""
+          - name: src_nm
+            description: ""
+
+      - name: kna_ecc_cust_mstr_t077x
+        description: ""
+        columns:
+          - name: source_system
+            description: ""
+          - name: mandt
+            description: ""
+          - name: spras
+            description: ""
+          - name: ktokd
+            description: ""
+          - name: acct_group_desc
+            description: ""
+          - name: kortex_file_path_nm
+            description: ""
+          - name: kortex_file_ts
+            description: ""
+          - name: kortex_upld_ts
+            description: ""
+          - name: kortex_dprct_ts
+            description: ""
+          - name: src_nm
+            description: ""
+
+      - name: kna_ecc_cust_mstr_knvv
+        description: ""
+        columns:
+          - name: source_system
+            description: ""
+          - name: mandt
+            description: ""
+          - name: kunnr
+            description: ""
+          - name: cust_nbr
+            description: ""
+          - name: vkorg
+            description: ""
+          - name: sales_org_cd
+            description: ""
+          - name: vtweg
+            description: ""
+          - name: distbn_chnl_cd
+            description: ""
+          - name: spart
+            description: ""
+          - name: div_cd
+            description: ""
+          - name: ernam
+            description: ""
+          - name: erdat
+            description: ""
+          - name: begru
+            description: ""
+          - name: loevm
+            description: ""
+          - name: sales_org_del_ind
+            description: ""
+          - name: versg
+            description: ""
+          - name: aufsd
+            description: ""
+          - name: sales_org_order_blok_cd
+            description: ""
+          - name: kalks
+            description: ""
+          - name: kdgrp
+            description: ""
+          - name: bzirk
+            description: ""
+          - name: konda
+            description: ""
+          - name: price_group_cd
+            description: ""
+          - name: pltyp
+            description: ""
+          - name: price_list_type_cd
+            description: ""
+          - name: awahr
+            description: ""
+          - name: inco1
+            description: ""
+          - name: inco2
+            description: ""
+          - name: lifsd
+            description: ""
+          - name: autlf
+            description: ""
+          - name: antlf
+            description: ""
+          - name: kztlf
+            description: ""
+          - name: kzazu
+            description: ""
+          - name: chspl
+            description: ""
+          - name: lprio
+            description: ""
+          - name: eikto
+            description: ""
+          - name: vsbed
+            description: ""
+          - name: faksd
+            description: ""
+          - name: mrnkz
+            description: ""
+          - name: perfk
+            description: ""
+          - name: perrl
+            description: ""
+          - name: kvakz
+            description: ""
+          - name: kvawt
+            description: ""
+          - name: waers
+            description: ""
+          - name: klabc
+            description: ""
+          - name: ktgrd
+            description: ""
+          - name: zterm
+            description: ""
+          - name: vwerk
+            description: ""
+          - name: vkgrp
+            description: ""
+          - name: vkbur
+            description: ""
+          - name: vsort
+            description: ""
+          - name: kvgr1
+            description: ""
+          - name: kvgr2
+            description: ""
+          - name: kvgr3
+            description: ""
+          - name: kvgr4
+            description: ""
+          - name: kvgr5
+            description: ""
+          - name: bokre
+            description: ""
+          - name: boidt
+            description: ""
+          - name: kurst
+            description: ""
+          - name: prfre
+            description: ""
+          - name: prat1
+            description: ""
+          - name: prat2
+            description: ""
+          - name: prat3
+            description: ""
+          - name: prat4
+            description: ""
+          - name: prat5
+            description: ""
+          - name: prat6
+            description: ""
+          - name: prat7
+            description: ""
+          - name: prat8
+            description: ""
+          - name: prat9
+            description: ""
+          - name: prata
+            description: ""
+          - name: kabss
+            description: ""
+          - name: kkber
+            description: ""
+          - name: cassd
+            description: ""
+          - name: rdoff
+            description: ""
+          - name: agrel
+            description: ""
+          - name: megru
+            description: ""
+          - name: uebto
+            description: ""
+          - name: untto
+            description: ""
+          - name: uebtk
+            description: ""
+          - name: pvksm
+            description: ""
+          - name: podkz
+            description: ""
+          - name: podtg
+            description: ""
+          - name: blind
+            description: ""
+          - name: carrier_notif
+            description: ""
+          - name: /bev1/emlgpfand
+            description: ""
+          - name: /bev1/emlgforts
+            description: ""
+          - name: kortex_file_path_nm
+            description: ""
+          - name: kortex_file_ts
+            description: ""
+          - name: kortex_upld_ts
+            description: ""
+          - name: kortex_dprct_ts
+            description: ""
+          - name: src_nm
+            description: ""
+
+      - name: kna_ecc_cust_mstr_t151t
+        description: ""
+        columns:
+          - name: source_system
+            data_type: varchar
+            description: ""
+          - name: mandt
+            data_type: varchar
+            description: ""
+          - name: spras
+            data_type: varchar
+            description: ""
+          - name: kdgrp
+            data_type: varchar
+            description: ""
+          - name: chnl_nm
+            data_type: varchar
+            description: ""
+          - name: kortex_file_path_nm
+            data_type: varchar
+            description: ""
+          - name: kortex_file_ts
+            data_type: varchar
+            description: ""
+          - name: kortex_upld_ts
+            data_type: timestamp_ntz
+            description: ""
+          - name: kortex_dprct_ts
+            data_type: timestamp_ntz
+            description: ""
+          - name: src_nm
+            data_type: varchar
+            description: ""
+
+      - name: kna_ecc_cust_mstr_knb1
+        description: ""
+        columns:
+          - name: source_system
+            data_type: varchar
+            description: ""
+          - name: mandt
+            data_type: varchar
+            description: ""
+          - name: kunnr
+            data_type: varchar
+            description: ""
+          - name: co_cd
+            data_type: varchar
+            description: ""
+          - name: pernr
+            data_type: varchar
+            description: ""
+          - name: erdat
+            data_type: date
+            description: ""
+          - name: ernam
+            data_type: varchar
+            description: ""
+          - name: sperr
+            data_type: varchar
+            description: ""
+          - name: co_cd_del_ind
+            data_type: varchar
+            description: ""
+          - name: zuawa
+            data_type: varchar
+            description: ""
+          - name: busab
+            data_type: varchar
+            description: ""
+          - name: akont
+            data_type: varchar
+            description: ""
+          - name: begru
+            data_type: varchar
+            description: ""
+          - name: knrze
+            data_type: varchar
+            description: ""
+          - name: knrzb
+            data_type: varchar
+            description: ""
+          - name: zamim
+            data_type: varchar
+            description: ""
+          - name: zamiv
+            data_type: varchar
+            description: ""
+          - name: zamir
+            data_type: varchar
+            description: ""
+          - name: zamib
+            data_type: varchar
+            description: ""
+          - name: zamio
+            data_type: varchar
+            description: ""
+          - name: zwels
+            data_type: varchar
+            description: ""
+          - name: xverr
+            data_type: varchar
+            description: ""
+          - name: zahls
+            data_type: varchar
+            description: ""
+          - name: zterm
+            data_type: varchar
+            description: ""
+          - name: wakon
+            data_type: varchar
+            description: ""
+          - name: vzskz
+            data_type: varchar
+            description: ""
+          - name: zindt
+            data_type: date
+            description: ""
+          - name: zinrt
+            data_type: varchar
+            description: ""
+          - name: eikto
+            data_type: varchar
+            description: ""
+          - name: zsabe
+            data_type: varchar
+            description: ""
+          - name: kverm
+            data_type: varchar
+            description: ""
+          - name: fdgrv
+            data_type: varchar
+            description: ""
+          - name: vrbkz
+            data_type: varchar
+            description: ""
+          - name: vlibb
+            data_type: number
+            description: ""
+          - name: vrszl
+            data_type: number
+            description: ""
+          - name: vrspr
+            data_type: number
+            description: ""
+          - name: vrsnr
+            data_type: varchar
+            description: ""
+          - name: verdt
+            data_type: date
+            description: ""
+          - name: perkz
+            data_type: varchar
+            description: ""
+          - name: xdezv
+            data_type: varchar
+            description: ""
+          - name: xausz
+            data_type: varchar
+            description: ""
+          - name: webtr
+            data_type: number
+            description: ""
+          - name: remit
+            data_type: varchar
+            description: ""
+          - name: datlz
+            data_type: date
+            description: ""
+          - name: xzver
+            data_type: varchar
+            description: ""
+          - name: togru
+            data_type: varchar
+            description: ""
+          - name: kultg
+            data_type: number
+            description: ""
+          - name: hbkid
+            data_type: varchar
+            description: ""
+          - name: xpore
+            data_type: varchar
+            description: ""
+          - name: blnkz
+            data_type: varchar
+            description: ""
+          - name: tdlinx_nbr
+            data_type: varchar
+            description: ""
+          - name: zgrup
+            data_type: varchar
+            description: ""
+          - name: urlid
+            data_type: varchar
+            description: ""
+          - name: mgrup
+            data_type: varchar
+            description: ""
+          - name: lockb
+            data_type: varchar
+            description: ""
+          - name: uzawe
+            data_type: varchar
+            description: ""
+          - name: ekvbd
+            data_type: varchar
+            description: ""
+          - name: sregl
+            data_type: varchar
+            description: ""
+          - name: xedip
+            data_type: varchar
+            description: ""
+          - name: frgrp
+            data_type: varchar
+            description: ""
+          - name: vrsdg
+            data_type: varchar
+            description: ""
+          - name: tlfxs
+            data_type: varchar
+            description: ""
+          - name: intad
+            data_type: varchar
+            description: ""
+          - name: xknzb
+            data_type: varchar
+            description: ""
+          - name: guzte
+            data_type: varchar
+            description: ""
+          - name: gricd
+            data_type: varchar
+            description: ""
+          - name: gridt
+            data_type: varchar
+            description: ""
+          - name: wbrsl
+            data_type: varchar
+            description: ""
+          - name: confs
+            data_type: varchar
+            description: ""
+          - name: updat
+            data_type: date
+            description: ""
+          - name: uptim
+            data_type: varchar
+            description: ""
+          - name: nodel
+            data_type: varchar
+            description: ""
+          - name: tlfns
+            data_type: varchar
+            description: ""
+          - name: cession_kz
+            data_type: varchar
+            description: ""
+          - name: qland
+            data_type: varchar
+            description: ""
+          - name: gmvkzd
+            data_type: varchar
+            description: ""
+          - name: kortex_file_path_nm
+            data_type: varchar
+            description: ""
+          - name: kortex_file_ts
+            data_type: varchar
+            description: ""
+          - name: kortex_upld_ts
+            data_type: timestamp_ntz
+            description: ""
+          - name: kortex_dprct_ts
+            data_type: timestamp_ntz
+            description: ""
+          - name: src_nm
+            data_type: varchar
+            description: ""
+
+      - name: kna_ecc_cust_mstr_knvp
+        description: ""
+        columns:
+          - name: source_system
+            data_type: varchar
+            description: ""
+          - name: mandt
+            data_type: varchar
+            description: ""
+          - name: cust_nbr
+            data_type: varchar
+            description: ""
+          - name: sales_org_cd
+            data_type: varchar
+            description: ""
+          - name: distbn_chnl_cd
+            data_type: varchar
+            description: ""
+          - name: div_cd
+            data_type: varchar
+            description: ""
+          - name: partnr_fctn_cd
+            data_type: varchar
+            description: ""
+          - name: partnr_ctr_nbr
+            data_type: varchar
+            description: ""
+          - name: partnr_cust_nbr
+            data_type: varchar
+            description: ""
+          - name: lifnr
+            data_type: varchar
+            description: ""
+          - name: pernr
+            data_type: varchar
+            description: ""
+          - name: parnr
+            data_type: varchar
+            description: ""
+          - name: knref
+            data_type: varchar
+            description: ""
+          - name: defpa
+            data_type: varchar
+            description: ""
+          - name: kortex_file_path_nm
+            data_type: varchar
+            description: ""
+          - name: kortex_file_ts
+            data_type: varchar
+            description: ""
+          - name: kortex_upld_ts
+            data_type: timestamp_ntz
+            description: ""
+          - name: kortex_dprct_ts
+            data_type: timestamp_ntz
+            description: ""
+          - name: src_nm
+            data_type: varchar
+            description: ""
+
+      - name: kna_ecc_cust_mstr_tpart
+        description: ""
+        columns:
+          - name: source_system
+            data_type: varchar
+            description: ""
+          - name: mandt
+            data_type: varchar
+            description: ""
+          - name: spras
+            data_type: varchar
+            description: ""
+          - name: parvw
+            data_type: varchar
+            description: ""
+          - name: partnr_fctn_desc
+            data_type: varchar
+            description: ""
+          - name: kortex_file_path_nm
+            data_type: varchar
+            description: ""
+          - name: kortex_file_ts
+            data_type: varchar
+            description: ""
+          - name: kortex_upld_ts
+            data_type: timestamp_ntz
+            description: ""
+          - name: kortex_dprct_ts
+            data_type: timestamp_ntz
+            description: ""
+          - name: src_nm
+            data_type: varchar
+            description: ""
+
+      - name: kna_ecc_lng_mstr_t002
+        description: ""
+        columns:
+          - name: source_system
+            data_type: varchar
+            description: ""
+          - name: spras
+            data_type: varchar
+            description: ""
+          - name: intrnl_lng_cd
+            data_type: varchar
+            description: ""
+          - name: laspez
+            data_type: varchar
+            description: ""
+          - name: lahq
+            data_type: varchar
+            description: ""
+          - name: lng_cd
+            data_type: varchar
+            description: ""
+          - name: kortex_file_path_nm
+            data_type: varchar
+            description: ""
+          - name: kortex_file_ts
+            data_type: varchar
+            description: ""
+          - name: kortex_upld_ts
+            data_type: timestamp_ntz
+            description: ""
+          - name: kortex_dprct_ts
+            data_type: timestamp_ntz
+            description: ""
+          - name: src_nm
+            data_type: varchar
+            description: ""

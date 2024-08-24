@@ -1,0 +1,419 @@
+version: 2
+
+sources:
+  - name: stg_tdlinx_cust_mstr
+    description: ""
+    schema: prep
+    tables:
+      - name: tdlinx_cust_mstr_kellgstr
+        description: ""
+        columns:
+          - name: stdlinxscd
+            data_type: varchar
+            description: ""
+          - name: stranscd
+            data_type: varchar
+            description: ""
+          - name: smodchgind
+            data_type: varchar
+            description: ""
+          - name: sfiledt
+            data_type: varchar
+            description: ""
+          - name: sstatusind
+            data_type: varchar
+            description: ""
+          - name: sname
+            data_type: varchar
+            description: ""
+          - name: sno
+            data_type: varchar
+            description: ""
+          - name: sstreetadd
+            data_type: varchar
+            description: ""
+          - name: scity
+            data_type: varchar
+            description: ""
+          - name: sst
+            data_type: varchar
+            description: ""
+          - name: szip
+            data_type: varchar
+            description: ""
+          - name: splacenm
+            data_type: varchar
+            description: ""
+          - name: sstcd
+            data_type: varchar
+            description: ""
+          - name: scntcd
+            data_type: varchar
+            description: ""
+          - name: scntrynm
+            data_type: varchar
+            description: ""
+          - name: stradeclcd
+            data_type: varchar
+            description: ""
+          - name: sformatcd
+            data_type: varchar
+            description: ""
+          - name: snostrcd
+            data_type: varchar
+            description: ""
+          - name: schainind
+            data_type: varchar
+            description: ""
+          - name: sfiller1
+            data_type: varchar
+            description: ""
+          - name: slat
+            data_type: number
+            description: ""
+          - name: slong
+            data_type: number
+            description: ""
+          - name: slatlongcd
+            data_type: varchar
+            description: ""
+          - name: sblockid
+            data_type: varchar
+            description: ""
+          - name: sfiller2
+            data_type: varchar
+            description: ""
+          - name: sareacd
+            data_type: varchar
+            description: ""
+          - name: sphoneno
+            data_type: varchar
+            description: ""
+          - name: sfiller3
+            data_type: varchar
+            description: ""
+          - name: sannvolcd
+            data_type: varchar
+            description: ""
+          - name: swklyvol
+            data_type: number
+            description: ""
+          - name: ssqft
+            data_type: number
+            description: ""
+          - name: sftemploy
+            data_type: number
+            description: ""
+          - name: snmchkout
+            data_type: number
+            description: ""
+          - name: sfiller4
+            data_type: varchar
+            description: ""
+          - name: stdlinxocd
+            data_type: varchar
+            description: ""
+          - name: sownfamcd
+            data_type: varchar
+            description: ""
+          - name: sownnm
+            data_type: varchar
+            description: ""
+          - name: sowncity
+            data_type: varchar
+            description: ""
+          - name: sownst
+            data_type: varchar
+            description: ""
+          - name: sownstcd
+            data_type: varchar
+            description: ""
+          - name: sowncntcd
+            data_type: varchar
+            description: ""
+          - name: sfiller5
+            data_type: varchar
+            description: ""
+          - name: stdlinxpcd
+            data_type: varchar
+            description: ""
+          - name: ssupfamcd
+            data_type: varchar
+            description: ""
+          - name: ssupnm
+            data_type: varchar
+            description: ""
+          - name: ssupcity
+            data_type: varchar
+            description: ""
+          - name: ssupst
+            data_type: varchar
+            description: ""
+          - name: ssupstcd
+            data_type: varchar
+            description: ""
+          - name: ssupcntcd
+            data_type: varchar
+            description: ""
+          - name: sfiller6
+            data_type: varchar
+            description: ""
+          - name: stdlinxgcd
+            data_type: varchar
+            description: ""
+          - name: sgrpnm
+            data_type: varchar
+            description: ""
+          - name: sfranind
+            data_type: varchar
+            description: ""
+          - name: sfiller7
+            data_type: varchar
+            description: ""
+          - name: sgas
+            data_type: varchar
+            description: ""
+          - name: shivolcig
+            data_type: varchar
+            description: ""
+          - name: spharm
+            data_type: varchar
+            description: ""
+          - name: sliquor
+            data_type: varchar
+            description: ""
+          - name: swine
+            data_type: varchar
+            description: ""
+          - name: sbeer
+            data_type: varchar
+            description: ""
+          - name: sonprem
+            data_type: varchar
+            description: ""
+          - name: sfoodtype
+            data_type: varchar
+            description: ""
+          - name: sfuture1
+            data_type: varchar
+            description: ""
+          - name: sfuture2
+            data_type: varchar
+            description: ""
+          - name: sfuture3
+            data_type: varchar
+            description: ""
+          - name: sfiller8
+            data_type: varchar
+            description: ""
+          - name: atdlinxacd
+            data_type: varchar
+            description: ""
+          - name: afamcd
+            data_type: varchar
+            description: ""
+          - name: atranscd
+            data_type: varchar
+            description: ""
+          - name: astatusind
+            data_type: varchar
+            description: ""
+          - name: atypecd
+            data_type: varchar
+            description: ""
+          - name: aname
+            data_type: varchar
+            description: ""
+          - name: astreet
+            data_type: varchar
+            description: ""
+          - name: acity
+            data_type: varchar
+            description: ""
+          - name: astate
+            data_type: varchar
+            description: ""
+          - name: azip
+            data_type: varchar
+            description: ""
+          - name: astcd
+            data_type: varchar
+            description: ""
+          - name: acntcd
+            data_type: varchar
+            description: ""
+          - name: acntrynm
+            data_type: varchar
+            description: ""
+          - name: aopername
+            data_type: varchar
+            description: ""
+          - name: atradeclcd
+            data_type: varchar
+            description: ""
+          - name: anostrcd
+            data_type: varchar
+            description: ""
+          - name: atdlinxicd
+            data_type: varchar
+            description: ""
+          - name: aimname
+            data_type: varchar
+            description: ""
+          - name: aimcity
+            data_type: varchar
+            description: ""
+          - name: aimstate
+            data_type: varchar
+            description: ""
+          - name: atdlinxucd
+            data_type: varchar
+            description: ""
+          - name: aulname
+            data_type: varchar
+            description: ""
+          - name: aulcity
+            data_type: varchar
+            description: ""
+          - name: aulstate
+            data_type: varchar
+            description: ""
+          - name: mstcd
+            data_type: varchar
+            description: ""
+          - name: mcntcd
+            data_type: varchar
+            description: ""
+          - name: mstate
+            data_type: varchar
+            description: ""
+          - name: mcountynm
+            data_type: varchar
+            description: ""
+          - name: mnielszcd
+            data_type: varchar
+            description: ""
+          - name: mdmacd
+            data_type: varchar
+            description: ""
+          - name: mdmanm
+            data_type: varchar
+            description: ""
+          - name: mdmarnk
+            data_type: number
+            description: ""
+          - name: mmsacd
+            data_type: varchar
+            description: ""
+          - name: mmsanm
+            data_type: varchar
+            description: ""
+          - name: mmsarnk
+            data_type: number
+            description: ""
+          - name: miricd
+            data_type: varchar
+            description: ""
+          - name: mirinm
+            data_type: varchar
+            description: ""
+          - name: mirirnk
+            data_type: number
+            description: ""
+          - name: macncd
+            data_type: varchar
+            description: ""
+          - name: macnnm
+            data_type: varchar
+            description: ""
+          - name: macnrnk
+            data_type: number
+            description: ""
+          - name: mmgbmktcd
+            data_type: varchar
+            description: ""
+          - name: mmgbmktnm
+            data_type: varchar
+            description: ""
+          - name: mmgbregnm
+            data_type: varchar
+            description: ""
+          - name: mmgbrnk
+            data_type: number
+            description: ""
+          - name: kortex_file_path_nm
+            data_type: varchar
+            description: ""
+          - name: kortex_file_ts
+            data_type: varchar
+            description: ""
+          - name: kortex_upld_ts
+            data_type: timestamp_ntz
+            description: ""
+          - name: kortex_dprct_ts
+            data_type: timestamp_ntz
+            description: ""
+          - name: src_nm
+            data_type: varchar
+            description: ""
+
+      - name: tdlinx_cust_mstr_kellgrs1
+        description: ""
+        columns:
+          - name: rclientno
+            data_type: varchar
+            description: ""
+          - name: rtranscd
+            data_type: varchar
+            description: ""
+          - name: rfiledt
+            data_type: varchar
+            description: ""
+          - name: rtdlinxscd
+            data_type: varchar
+            description: ""
+          - name: rtdlinxacd
+            data_type: varchar
+            description: ""
+          - name: rtradeclcd
+            data_type: varchar
+            description: ""
+          - name: rformatcd
+            data_type: varchar
+            description: ""
+          - name: rsstatuscd
+            data_type: varchar
+            description: ""
+          - name: rastatuscd
+            data_type: varchar
+            description: ""
+          - name: rreplscd
+            data_type: varchar
+            description: ""
+          - name: rreplacd
+            data_type: varchar
+            description: ""
+          - name: rclverdt
+            data_type: varchar
+            description: ""
+          - name: rshiptoacd
+            data_type: varchar
+            description: ""
+          - name: rfiller
+            data_type: varchar
+            description: ""
+          - name: kortex_file_path_nm
+            data_type: varchar
+            description: ""
+          - name: kortex_file_ts
+            data_type: varchar
+            description: ""
+          - name: kortex_upld_ts
+            data_type: timestamp_ntz
+            description: ""
+          - name: kortex_dprct_ts
+            data_type: timestamp_ntz
+            description: ""
+          - name: src_nm
+            data_type: varchar
+            description: ""

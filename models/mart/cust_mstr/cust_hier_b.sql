@@ -1,11 +1,12 @@
+
 /*
--- klg_nga_kna.cust_mstr.sp_cust_hier_a
+-- klg_nga_kna.cust_mstr.sp_cust_hier_b
 
 -- ===================================================================================================================================================================================================================
 Authors    : Surya
 Create Date: 07/24/2024
-Description: Customer Master (SAP)
-Name       : cust_mstr.sp_cust_hier_a
+Description: Customer hierarchy (SAP)
+Name       : cust_mstr.sp_cust_hier_b
 Revisions  :
 Version     Date        Author           Description
 ---------  ----------  ---------------  ------------------------------------------------------------------
@@ -19,12 +20,12 @@ Version     Date        Author           Description
     )
 }}
 
-with int_cust_hier_a as (
-    select * from {{ ref('int_cust_hier_a') }}
+with int_cust_hier_b as (
+    select * from {{ ref('int_cust_hier_b') }}
 ),
 
 final as (
-    select
+    select 
         distinct src_nm,
         hier_tmfrm_id,
         hash_key,
@@ -32,30 +33,26 @@ final as (
         hier_id,
         co_nbr,
         ctry_nbr,
-        level3_misc_nbr,
+        chnl_nbr,
         level4_misc_nbr,
-        level5_misc_nbr,
-        level6_misc_nbr,
-        level7_misc_nbr,
-        level8_misc_nbr,
-        level9_misc_nbr,
-        level10_misc_nbr,
+        rgn_nbr,
+        area_nbr,
+        terr_nbr,
+        sold_to_nbr,
         co_nm,
         ctry_nm,
-        level3_misc_nm,
+        chnl_nm,
         level4_misc_nm,
-        level5_misc_nm,
-        level6_misc_nm,
-        level7_misc_nm,
-        level8_misc_nm,
-        level9_misc_nm,
-        level10_misc_nm,
+        rgn_nm,
+        area_nm,
+        terr_nm,
+        sold_to_nm,
         last_level_nbr,
         last_level_cust_nbr,
         kortex_upld_ts,
         kortex_dprct_ts
     from 
-        int_cust_hier_a
+        int_cust_hier_b
 )
 
 select * from final
